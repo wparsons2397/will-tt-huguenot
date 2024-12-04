@@ -1,0 +1,7 @@
+.FundTable {
+    padding: 2%;
+
+    .Hidden {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.FundGrid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+
+    .FundGridRow {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3%;
+
+        .FundGridEntity {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 28%;
+            margin-left: 3%;
+            min-height: 350px;
+        }
+
+        .Hidden {
+            display: none;
+        }
+    }
+
+
+}

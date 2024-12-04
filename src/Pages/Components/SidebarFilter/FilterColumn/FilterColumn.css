@@ -1,0 +1,77 @@
+.FilterColumn {
+
+    flex-basis: 20%;
+    border-right: 2px solid var(--light-warm-grey-500);
+
+    font-family: var(--font-cambria);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 0 2% 2% 2%;
+
+    .FilterHeader
+    {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10%;
+        justify-content: space-between;
+
+        .FilterHeaderText {
+            color: var(--navy);
+            font-size: var(--font-size-title-l);
+        }
+
+        .ClearAllButton {
+            display: flex;
+            flex-direction: row;
+            flex-basis: 40%;
+            background-color: var(--orange);
+            color: var(--white);
+            border: 0;
+
+            p {
+                margin: auto;
+            }
+        }
+    }
+
+    .Subtitle {
+        color: var(--navy);
+        font-family: var(--font-cambria);
+        font-size: var(--font-size-label-m);
+        font-weight: var(--label-bold);
+        font-style: var(--label-italic);
+        letter-spacing: var(--letter-spacing-label-bold-italic);
+        line-height: var(--line-height-label);
+        padding-top: 3%;
+    }
+
+    .ShowManagers {
+        display: flex;
+        height: 72px;
+        margin-top: 10%;
+        
+        p {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 10%;
+            color: var(--navy);
+            font-family: var(--font-tahoma);
+            font-size: var(--font-size-body-s);
+            letter-spacing: var(--letter-spacing-body);
+            line-height: var(--line-height-body);
+        }
+
+        button {
+            border: 0;
+            border-radius: 30px;
+            background-color: var(--white);
+            width: 70%;
+            margin-left: 5%;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+}

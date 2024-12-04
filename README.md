@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# This project can be run with the following commands
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm i
+npm start
 
-## Available Scripts
+loads up on localhost:3000
 
-In the project directory, you can run:
+# Info
+this was built using create-react-app with a typescript template as the basis
 
-### `npm start`
+Source of icons: https://feathericons.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Figma for reference
+https://www.figma.com/design/MkHXiu3Wjja0JGx3HvjzcF/FE-Test---Fund-Centre?node-id=1615-277791&node-type=frame&t=Iq8lzcVGbZrkc64o-0
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+This project served as a tech test for a company during an interview process
+This will be made private as a repository once the interview process is completed
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# My thoughts at the conclusion of this work
 
-### `npm run build`
+I spent just under 10 hours working on this, and I was unable to 100% complete the work as described. That being said, the resulting website is very great effort in time. 
+-List View set up
+-Grid View set up
+-Sidebar filters working
+-Clear All filters
+-Show Managers button shows & hides content
+-Website Header & Banner working
+-Colors applied via styling to replicate Figma
+-Fonts, line spacing, and styling set to replicate Figma
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Additionally - I chose to copy the data from the Figma for use here - I decided to create 2 constant files to maintain the data - which is just imported as necessary when in use. I felt this was an acceptable solution for what I had to do, but this is a hardcoded and limited scope example. The hardcoded table/grid based on the number of data points I used allowed me to get such a product done in about 10 hours, however that also would require reworking for a production quality code. I would most certainly want (& would use) a dynamic solution to the data load in & table/grid generation in a real world scenario.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# What I would prioritize next, if given more time
+The incomplete components that are left (and how I would prioritize working them) are as follows:
+1. Footer - I was able to start briefly on this but elected to prioritize working filtering - therefore there is not actually a footer at this time.
+2. Grid View Filtering - The filtering works and hides elements, but I would rewrite this to rearrange the grid components accordingly - this was a limitation of my solution with the time I had and had to make do with the solution as I started it.
+3. Managers View Filtering - there are buttons for the Manager section but they do nothing - functionality is key so this would be an immediate priority.
+4. Styling final check & pass - I was styling as I went and was able to do a great job for matching the mocks. However, since this is an exercise intended for a real world client, I would definitely prioritize another styling pass to really make things perfect. Right now, there is a bit of in certain scenarios.
+5. Search Bar - the search bar does nothing right now, so I would then create a functional search bar.
+6. CSS variable assignment & creation outside of single properties - I was able to assign most of the properties as variables as designated in the Figma - but I would much prefer to have an object property set up, for example 'Title-XL' that contains all the title stlying wrapped up into one - this would have helped the CSS bloat.

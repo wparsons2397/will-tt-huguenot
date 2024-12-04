@@ -1,0 +1,72 @@
+.Header {
+    color: var(--navy);
+    font-size: var(--font-size-title-l);
+    font-family: var(--font-cambria);
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    .LogoPng {
+        margin-left: 3%;
+        display: flex;
+        align-items: start;
+        flex-basis: 42%;
+    }
+    
+    .HeaderDropdownList { 
+        display: flex;
+        flex-basis: 35%;
+
+        .HeaderDropdownButton {
+            flex-basis: 20%;
+            display: flex;
+            margin: auto;
+            border: 0;
+
+            color: var(--navy);
+            font-family: var(--font-cambria);
+            font-size: var(--font-size-title-xs);
+            letter-spacing: var(--letter-spacing-title);
+            line-height: var(--line-height-title);
+            background-color: var(--white);
+
+        }
+
+        .Underlined {
+            border-bottom: 2px solid var(--teal);
+        }
+    }
+
+    .UKProfessionalOval { 
+        display: flex;
+        flex-basis: 10%;
+        border: 1px solid var(--teal);
+        border-radius: 25px;
+        background-color: var(--white);
+        width: 70%;
+        margin-left: 5%;
+        font-size: var(--font-size-title-xs);
+        font-family: var(--font-cambria);
+
+        .UserIcon {
+            margin: auto;
+        }
+
+        .OvalText {
+            margin: auto;
+            font-family: var(--font-tahoma);
+            font-size: var(--font-size-body-s);
+            letter-spacing: var(--letter-spacing-body);
+            line-height: var(--line-height-body);
+        }
+    }
+
+    .HeaderSearch {
+        margin: auto;
+        font-size: var(--font-size-title-xs);
+        font-family: var(--font-cambria);
+        display: flex;
+        justify-content: flex-end;
+    }
+}

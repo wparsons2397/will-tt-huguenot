@@ -1,0 +1,30 @@
+.ManagerSquare {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--white);
+    width: 9%;
+    padding-right: 1%;
+    padding-left: 1%;
+
+    .ManagerPicture {
+        margin-top: 10%;
+    }
+
+    .ManagerName {
+        color: var(--navy);
+        font-family: var(--font-cambria);
+        font-size: var(--font-size-label-m);
+        font-weight: var(--label-bold);
+        font-style: var(--label-italic);
+        letter-spacing: var(--letter-spacing-label-bold-italic);
+        line-height: var(--line-height-label);
+    }
+
+    .ManagerRegion {
+        font-size: var(--font-size-body-xs);
+        color: var(--light-warm-grey-800);
+        margin-bottom: 10%;
+    }
+
+}

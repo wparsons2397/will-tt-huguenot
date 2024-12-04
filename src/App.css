@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
+/* STYLING */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* COLORS */
+:root {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+--navy : #1E2E50;
+--white : #FFFFFF;
+--teal : #009E99;
+--burnt-orange : #AA4C02;
+--light-blue : #3B8AC9;
+--orange : #DE7900;
+--blue-green : #066644;
+--petrol-blue : #046B8E;
+--light-warm-grey-200 : #F0EEEB;
+--light-warm-grey-500 : #D1CCC3;
+--light-warm-grey-800 : #686661;
+--red : #D12626;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* FONTS */
+--font-cambria: Cambria;
+--font-tahoma: Tahoma;
 
-.App-link {
-  color: #61dafb;
-}
+/* display properties  */
+--font-size-display-xxl: 90px;
+--font-size-display-xl: 68px;
+--font-size-display-l: 50px;
+--font-size-display-m: 38px;
+--font-size-display-s: 28px;
+--font-size-display-xs: 22px;
+--letter-spacing-display: -3%;
+--line-height-display: 120%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* title properties  */
+--font-size-title-l: 38px;
+--font-size-title-m: 28px;
+--font-size-title-s: 22px;
+--font-size-title-xs: 20px;
+--letter-spacing-title: -1%;
+--line-height-title: 140%;
+
+/* body properties  */
+--font-size-body-l: 20px;
+--font-size-body-m: 16px;
+--font-size-body-s: 14px;
+--font-size-body-xs: 11px;
+--letter-spacing-body: 3%;
+--line-height-body: 160%;
+
+/* label properties */
+--font-size-label-l: 20px;
+--font-size-label-m: 16px;
+--font-size-label-s: 14px;
+--font-size-label-xs: 11px;
+--label-bold: bold;
+--label-italic: italic;
+--letter-spacing-label-bold-italic: 1%;
+--letter-spacing-label-l-m: 3%;
+--letter-spacing-label-s-xs: 20%;
+--line-height-label: 140%;
+
+/* CTA properties */
+--font-size-cta-m: 16px;
+--font-size-cta-s: 14px;
+--letter-spacing-cta: 3%;
+--line-height-cta: 160%;
+
 }

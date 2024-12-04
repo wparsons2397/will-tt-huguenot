@@ -1,0 +1,19 @@
+.FundTableSpacer {
+    display: flex;
+    height: 5%;
+    flex-direction: column;
+    margin-top: 2%;
+
+    .FundTableSpacerOutline {
+        flex-basis: 50%;
+        border-bottom: 2px solid var(--light-warm-grey-500);
+    }
+
+    .FundTableSpacerContent {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: end;
+        margin-top: 2%;
+
+    }
+}

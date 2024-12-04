@@ -1,0 +1,50 @@
+.FundRow {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    
+    background-color: var(--white);
+    padding-left: 2%;
+    margin-top: 2%;
+    height: 10vh;
+    font-family: var(--font-tahoma);
+
+    .FundName {
+        margin: auto;
+        flex-direction: column;
+        flex-basis: 35%;
+        letter-spacing: var(--letter-spacing-body);
+        line-height: var(--line-height-body);
+
+        .FundNameTop {
+            font-size: var(--font-size-body-m);
+            color: var(--navy);
+        }
+
+        .FundNameBottom {
+            font-size: var(--font-size-body-s);
+            color: var(--light-warm-grey-800);
+        }
+    }
+    
+    .FundRowItem, .FundRowItemDomicile, .FundRowItemRegion {
+        margin: auto;
+        flex-basis: 12%;
+        color: var(--navy);
+    }
+
+    .RowButton {
+        flex-basis: 5%;
+        margin: 1%;
+        border-radius: 50%;
+        border: 1px solid var(--teal);
+        background-color: var(--white);
+        fill: var(--teal);
+
+        img {
+            position: relative;
+            fill: var(--teal);
+        }
+    }
+}

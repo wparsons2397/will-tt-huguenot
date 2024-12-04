@@ -1,0 +1,12 @@
+.Footer {
+    color: var(--navy);
+    font-size: var(--font-size-display-xxl);
+    font-family: var(--font-cambria);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    bottom: -90%;
+    width: 100%;
+}

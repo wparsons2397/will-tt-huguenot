@@ -1,0 +1,105 @@
+.FundGridItem {
+    /* display: flex;
+    flex-direction: column;
+    flex-basis: 28%;
+    margin-left: 3%; */
+    min-height: 350px;
+
+
+    .NavyGridBanner {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        background-color: var(--navy);
+        color: var(--white);
+
+        .FundNameTop {
+            font-size: var(--font-size-title-m);
+            letter-spacing: var( --letter-spacing-title);
+            line-height: var(--line-height-title);
+            margin-top: 3%;
+            margin-left: 3%;
+            margin-bottom: 12%;
+
+        }
+        .FundNameBottom {
+            font-size: var(--font-size-label-s);
+            letter-spacing: 0.1em;
+            line-height: var(--line-height-label);
+            margin-bottom: 3%;
+            margin-left: 3%;
+            margin-top: auto;
+        }
+    }
+
+    .GridInfo {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white);
+        
+        .HeaderRow {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-top: 4%;
+            font-size: var(--font-size-label-s);
+            letter-spacing: 0.1em;
+            line-height: var(--line-height-label);
+            font-family: var(--font-tahoma);
+        }
+
+        .DataRow {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-top: 4%;
+
+        }
+        
+        .FactSheetRow {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-top: 10%;
+            margin-bottom: 4%;
+
+            .FactSheetGroup {
+                display: flex;
+                flex-direction: row;
+                flex-basis: 90%;
+                margin-top: 3%;
+
+                .DocumentIcon {
+                    margin-right: 5%;
+                }
+
+                .FactSheetText {
+                    font-size: var(--font-size-label-xs);
+                    line-height: var(--line-height-label);
+                    font-family: var(--font-tahoma);
+                    padding-top: 2%;
+                }
+            }
+
+            .GridButton {
+                flex-basis: 5%;
+                margin: 1%;
+                border-radius: 50%;
+                border: 1px solid var(--teal);
+                background-color: var(--white);
+                fill: var(--teal);
+        
+                img {
+                    position: relative;
+                    fill: var(--teal);
+                }
+            }
+        }
+    }
+}

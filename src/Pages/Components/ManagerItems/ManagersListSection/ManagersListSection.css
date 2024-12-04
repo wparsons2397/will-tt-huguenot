@@ -1,0 +1,35 @@
+.ManagersListSection {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-warm-grey-200);
+    border-bottom: 2px solid var(--light-warm-grey-500);
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    .FilterByManager {
+        display: flex;
+        flex-direction: row;
+
+        .FilterByManagerText {
+            margin-left: 2%;
+            margin-right: 7%;
+        }
+
+        p {
+            font-family: var(--font-cambria);
+            font-size: var(--font-size-label-m);
+            font-style: var(--label-italic);
+            font-weight: var(--label-bold);
+            letter-spacing: var(--letter-spacing-label-bold-italic);
+            line-height: var(--line-height-label);
+        }
+
+    }
+
+    .ListOfManagers {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

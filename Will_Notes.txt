@@ -1,0 +1,27 @@
+Thoughts & Notes
+
+my thoughts as for pre work & during work:
+key will be getting the row/grid setup going - first priority is wireframe the page
+second priority is a styling & detail pass
+
+there are a lot of font sizes & colors they are giving me - set up some global styling
+    set up variables in app.css - works for what i need but not perfect
+
+Reusable components:
+
+Fund Row item
+Fund Grid item
+Manager square w/ headshot
+Filter component item (aka checkbox)
+
+TODO day 2 of work:
+[X] load in the Managers row with button press
+[] Grid view
+[] Footer
+[X] Fill in Header
+[X ]Fill in Banners
+
+TODO day 3 of work
+[X] GRID VIEW
+Footer?
+[X] Filters
